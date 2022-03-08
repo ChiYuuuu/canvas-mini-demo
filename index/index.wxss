@@ -1,0 +1,31 @@
+.content{
+  height: 100vh;
+  overflow: hidden;
+  /* overflow-y: scroll; */
+}
+.img{
+  display: block;
+  width: 100%;
+  margin: 0;
+  
+}
+.ab{
+  width: 100%;
+
+}
+.ab0{
+  position: absolute;
+  height: 100vh;
+
+  z-index: 2;
+
+}
+.ab1{
+  height: 100vh;
+
+  z-index: 1;
+}
+.img1{
+  top: 0;
+  left: 0;
+}

@@ -1,0 +1,24 @@
+<view class="content">
+
+    <!-- <canvas type="2d" id="myCanvas"  style="height:{{'2000px'}};width:100%;overflow-y: scroll;"> -->
+            <scroll-view  class="ab ab0" scroll-y="true" bindscroll="bindscroll" fast-deceleration="true" enhanced="true">
+                <!-- <view  class="ab ab0" > -->
+
+        <image class="img img0" mode="widthFix" src="./../static/img/tm.png"></image>
+        <image class="img img0" mode="widthFix" src="./../static/img/tm.png"></image>
+        <image class="img img0" mode="widthFix" src="./../static/img/tm.png"></image>
+
+    </scroll-view>
+<!-- </view> -->
+
+    <scroll-view  class="ab ab1" scroll-y="true" enhanced="true" id="scrollview" scroll-anchoring="true">
+
+        <image class="img img1" mode="widthFix" src="./../static/img/wallhaven-v9v3r5.jpg"></image>
+        <image class="img img1" mode="widthFix" src="./../static/img/wallhaven-v9v3r5.jpg"></image>
+        <image class="img img1" mode="widthFix" src="./../static/img/wallhaven-v9v3r5.jpg"></image>
+
+
+    </scroll-view>
+
+    <!-- </canvas> -->
+</view>
